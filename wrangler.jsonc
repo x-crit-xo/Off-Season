@@ -1,6 +1,6 @@
 {
   // 1) Must match your Worker's name in the Cloudflare dashboard exactly.
-  "name": "off-season.crystallegoffe.workers.dev",
+  "name": "off-season",
   "main": "src/worker.js",
   "compatibility_date": "2026-11-01",
   "assets": {
