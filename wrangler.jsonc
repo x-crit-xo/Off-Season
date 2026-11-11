@@ -1,6 +1,6 @@
 {
   // 1) Must match your Worker's name in the Cloudflare dashboard exactly.
-  "name": "REPLACE-WITH-YOUR-WORKER-NAME",
+  "name": "off-season.crystallegoffe.workers.dev",
   "main": "src/worker.js",
   "compatibility_date": "2026-11-01",
   "assets": {
@@ -12,8 +12,8 @@
     {
       "binding": "DB",
       // 2) Your D1 database's name and ID (Storage & databases > D1 > your database).
-      "database_name": "REPLACE-WITH-YOUR-DATABASE-NAME",
-      "database_id": "REPLACE-WITH-YOUR-DATABASE-ID"
+      "database_name": "off-season",
+      "database_id": "6d5ed38c-e609-4715-b835-d27175b29990"
     }
   ]
 }
