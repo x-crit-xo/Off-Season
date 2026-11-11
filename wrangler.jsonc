@@ -1,0 +1,19 @@
+{
+  // 1) Must match your Worker's name in the Cloudflare dashboard exactly.
+  "name": "REPLACE-WITH-YOUR-WORKER-NAME",
+  "main": "src/worker.js",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    "run_worker_first": ["/api/*"]
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      // 2) Your D1 database's name and ID (Storage & databases > D1 > your database).
+      "database_name": "REPLACE-WITH-YOUR-DATABASE-NAME",
+      "database_id": "REPLACE-WITH-YOUR-DATABASE-ID"
+    }
+  ]
+}
