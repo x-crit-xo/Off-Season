@@ -56,7 +56,7 @@ li .d{width:10px;height:10px;flex:none}li .n{flex:1;overflow:hidden;text-overflo
 </main>
 <script>
 const W=320,H=240,GY=205,PX=48,PW=16,PH=26,CH=18,CL=20;
-const F=[["burton","Burton","#d32f2f"],["capita","Capita","#f57c00"],["dwd","DWD","#e6a800"],["signal","Signal","#2e9b46"],["nidecker","Nidecker","#00a3b4"],["salomon","Salomon","#1e78d8"],["gnu","GNU","#6a3fc0"],["k2","K2","#d81b60"],["nitro","Nitro","#7a5540"],["yes","Yes.","#8bc34a"],["ride","Ride","#455a64"]].map(([id,n,c])=>({id,n,c,l:c,p:"",spin:1,g:1,ramp:4}));
+const F=[["burton","Burton","#d32f2f"],["capita","Capita","#f57c00"],["dwd","DWD","#e6a800"],["signal","Signal","#2e9b46"],["nidecker","Nidecker","#00a3b4"],["salomon","Salomon","#1e78d8"],["gnu","GNU","#6a3fc0"],["k2","K2","#d81b60"],["nitro","Nitro","#7a5540"],["yes","Yes.","#8bc34a"],["ride","Ride","#455a64"]["dope","Dope","#e040fb"]].map(([id,n,c])=>({id,n,c,l:c,p:"",spin:1,g:1,ramp:4}));
 const ls={get(k){try{return localStorage.getItem(k)}catch(e){return null}},set(k,v){try{localStorage.setItem(k,v)}catch(e){}}};
 let fac=F.find(f=>f.id===ls.get("pd_f"))||F[0], best=+ls.get("pd_b")||0;
 const $=id=>document.getElementById(id), cv=$("c"), x=cv.getContext("2d");
