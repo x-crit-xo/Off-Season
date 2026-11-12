@@ -3,7 +3,7 @@
 //   everything else -> the game files in /public (served by Workers static assets)
 // Needs a D1 binding named DB (set in wrangler.jsonc).
 
-const FACTIONS = ["burton","capita","dwd","signal","nidecker","salomon","gnu","k2","nitro","yes","ride"];
+const FACTIONS = ["burton","capita","dwd","signal","nidecker","salomon","gnu","k2","nitro","yes","ride","dope"];
 const MAX_SCORE = 250000;   // hard cap on any single score
 const PER_SECOND = 300;     // most points that are plausible per second survived
 const BLOCKED = [];         // lowercase words to refuse in names, e.g. ["word1", "word2"]
